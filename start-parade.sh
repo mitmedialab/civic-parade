@@ -6,6 +6,8 @@ SITE_LIST=`cat .sitelist-temp.txt`
 echo opening
 echo $SITELIST
 
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --kiosk $SITE_LIST &
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --kiosk &
+
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome $SITE_LIST &
 
 exit
