@@ -1,6 +1,7 @@
 #!/bin/bash
 
-SITE_LIST=$(curl https://raw.githubusercontent.com/c4fcm/civic-parade/master/sitelist.txt)
+curl https://raw.githubusercontent.com/c4fcm/civic-parade/master/sitelist.txt -o .sitelist-temp.txt
+SITE_LIST=`cat .sitelist-temp.txt`
 
 echo opening
 echo $SITELIST
