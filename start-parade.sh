@@ -6,3 +6,5 @@ echo opening
 echo $SITELIST
 
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --kiosk $SITE_LIST
+
+exit
