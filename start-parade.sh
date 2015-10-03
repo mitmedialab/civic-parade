@@ -8,6 +8,8 @@ echo $SITELIST
 
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --kiosk &
 
+sleep 3
+
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome $SITE_LIST &
 
 exit
