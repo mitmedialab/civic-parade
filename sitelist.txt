@@ -1,2 +1,3 @@
 https://fold.cm
 https://dashboard.mediameter.org/#demo-query/["truth","beauty"]/[{"sets":[8875027]},{"sets":[8875027]}]/["2015-9-16","2015-9-16"]/["2015-9-30","2015-9-30"]/[{"uid":1},{"uid":2}]
+http://code4rights.org/
